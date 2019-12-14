@@ -1,0 +1,196 @@
+/* CSS Document */
+body {
+	background-image: url("../img/background.jpg");
+	background-color: silver;
+	margin:0;
+	padding:0;
+	font-family : Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-image: url("../img/header.jpg");
+	background-size : 100% 110%;
+	background-repeat: no-repeat;
+	color : white;
+	text-align : center;
+}
+.top {
+	position:relative;
+	right: 25%;
+	font-style :italic;
+	line-height: 1.5;
+	padding-left: 10%;
+}
+
+/*Main Page Sign-in Form*/
+#sign_in form {
+	position: relative;
+	bottom: -15px;
+	width: 100%;
+	height: 0%;
+	background-color: rgba(255,255,255,0.9);
+	float: right;
+	color: black;
+	text-align: right;
+	padding-right: 10%;
+	padding-bottom: 7px;
+	padding-top: 7px;
+
+}
+
+#sign_in form input, label {
+	display: inline-block;
+	margin-left: 10px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-top: 5px;
+}
+
+#sign_in form input['password'] {
+	width: 20%;
+}
+
+#sign_in form label {
+	font-weight: bold;
+}
+
+#sign_in form input[type="submit"] {
+	width: 6%;
+	background: #4B99AD;
+	padding: 8px 15px 8px 12px;
+	border: none;
+	color: #fff;
+
+}
+
+#header_name {
+	font-size:2.5em;
+	font-style:normal;
+	line-height:0.1;
+}
+main {
+	margin-left:10%;
+	margin-right:10%;
+	max-width:80%;
+	vertical-align:middle;
+	background-color:rgba(255,255,255,0.8);
+	padding-top:2px;
+	padding-bottom:10px;
+}
+#main_text {
+	margin: 10%;
+	margin-top: 5%; 
+}
+
+nav ul {
+	clear: both;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:rgba(0,46,93,0.7);
+	text-align:center;
+	font-size:18px;
+}
+
+nav li {
+	display:inline-block;
+	padding:15px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+nav li a {
+	text-decoration: none;
+	color:white;
+}
+nav li a:hover {
+	color:#DFCFBA;
+}
+.active {
+	color:#DFCFBA;
+}
+
+#desc {
+	font-size: 12px;
+	text-align: center;
+}
+
+#error_message {
+	color: red;
+}
+#success_message {
+	color: blue;
+}
+
+footer {
+	background-color:white;
+	margin:0;
+	overflow: hidden;
+}
+footer p {
+	position:relative;
+	font-size:13px;
+	top: 50px;
+	left:12%;
+}
+
+footer a {
+	position:relative;
+	right:12%;
+	margin:0;
+	padding:0;
+	float:right;
+}
+footer img {
+	width:40px;
+	height:40px;
+}
+/*For accordion in projects.html*/
+#projects {
+	margin-top: 40px;
+}
+#projects .ui-accordion-content {
+	background-color: #f3f3f3;
+	color: #777;
+	font-size: 10pt;
+	line-height: 16pt;
+}
+
+/*Friendlist Form*/
+#friendlist form input[type="text"]{
+	margin:0 0 3px 0;
+	padding:3px;
+	width: 40%;
+}
+#friendlist form input[type="submit"],input[type="reset"]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+	width: 20%;
+}
+
+/*Signin-Page Form*/
+#signin_page { text-align: center; }
+#signin_page #error {
+	color:red;
+}
+#signin_page input[type="text"] {
+	margin:0 0 3px 0;
+	padding:3px;
+	width: 40%;
+}
+#signin_page input[type="password"] {
+	margin:0 0 3px 0;
+	padding:3px;
+	width: 40%;
+}
+#signin_page form input[type="submit"],input[type="reset"]{
+	margin-top: 10px;
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+	width: 20%;
+}

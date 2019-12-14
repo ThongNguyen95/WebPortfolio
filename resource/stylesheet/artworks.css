@@ -1,0 +1,18 @@
+main img {
+	width: 50%;
+	height: 50%;
+	margin: 20px;
+}
+#main_text {
+	text-align: center;
+}
+
+.artwork {
+	position:relative;
+}
+.art_desc {
+	text-align: left;
+	position: absolute;
+	top: 25%;
+	right: 0;
+}
